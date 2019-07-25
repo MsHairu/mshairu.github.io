@@ -1,0 +1,44 @@
+.bg{
+    background-image: url(./img/imgbg.jpg);
+    background-repeat: repeat;
+}
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.headimg{
+    width: 800px;
+    position: relative;
+
+}
+.lolo1{
+    position: relative;
+    bottom: 60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background:rgb(54, 202, 128);
+    left: -10%
+}
+.lolo{
+    text-decoration: none;
+    color: rgb(190, 253, 205);
+    font-family: 'Caveat', cursive;
+}
+.lolo1:hover{
+    
+    padding: 15px;
+    height: 40px;
+    width: 110px;
+    box-shadow: 0 0 20px rgb(248, 145, 145);
+    transition: .3s;
+}
+.foot{
+    height: 50px;
+    background:rgb(54, 202, 128);
+}
