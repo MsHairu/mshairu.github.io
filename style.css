@@ -1,0 +1,252 @@
+
+.pocentru{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.divh1{
+    position: relative;
+  width: 300px;
+  background: #4b9136;
+  opacity: 1;
+  bottom: 60px;
+  left: 80px;
+  border-radius: 1rem;
+}
+.h1{
+    position: relative;
+    left: 10px;
+    color: white;
+    text-shadow:  0 0 5px grey;
+    font-family: 'Caveat', cursive;
+}
+.h1:hover{
+    text-decoration: underline;
+}
+.video{
+    width: 750px;
+    height: 400px;
+}
+@keyframes nifiga{
+    0%{
+     background-image: url(./img/img11.jpg);
+    }
+    25%{
+        background-image: url(./img/img12.jpg);
+    }
+    50%{
+        background-image: url(./img/img13.jpg);
+    }
+    100%{
+        background-image: url(./img/img14.jpg);
+    }
+}
+
+.headimg{
+    width: 800px;
+    height: 440px;
+    background: gray 50%/cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+    animation: nifiga 20s ease-in-out alternate infinite;
+}
+
+.lolo1{
+    position: relative;
+    bottom: 60px;
+    vertical-align: top;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background:#4b9136;
+    border-radius: 1rem;
+}
+.lolo{
+    text-decoration: none;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 13px;
+}
+.lolo1:hover{
+    
+    padding: 15px;
+    box-shadow: 0 0 20px rgb(248, 145, 145);
+    transition: .3s;
+}
+.lolo1:active{
+    background: rgb(248, 145, 145);
+}
+.activelolo1{
+    position: relative;
+    bottom: 60px;
+    vertical-align: top;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background:rgb(248, 145, 145);
+    border-radius: 1rem;
+}
+.commet{
+    text-align: right;
+    box-shadow: 0 0 5px gray;
+    padding: 10px;
+    width:94%;
+    margin:2%;
+}
+.h3{
+    font-family: 'Caveat', cursive;
+    color: green;
+    text-align: center;
+}
+.h3:hover{
+    text-decoration: underline;
+}
+.h4{
+    font-family: 'Caveat', cursive;
+    color: gray;
+    text-align: center;
+}
+.divx{
+    overflow: auto;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 0 5px gray;
+    width: 30%;
+    margin: 1%;
+    padding: 5px;
+}
+
+.bot{
+    background: #4b9136;
+    padding: 2%;
+    position: relative;
+    top: 0%;
+}
+.bot:hover{
+    background: rgb(248, 145, 145);
+    transition: .5s;
+}
+.com1{
+    font-family: 'Caveat', cursive;
+    font-size: 15px;
+    color: gray;
+    text-decoration: underline;
+}
+.mainpr{
+    position: relative;
+    bottom: 40px;
+    width: 800px;
+    box-shadow: 0 0 5px gray;
+    
+}
+.mainnav{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    margin-right: 10px;
+    box-shadow: 0 0 5px gray;
+}
+.mainnav:hover{
+    background: red;
+    opacity: 0.3;
+    transform: rotate(5deg);
+    transition: .3s;
+}
+.mainnavtext{
+    text-decoration: none;
+    color: #4b9136;
+    font-family: 'Caveat', cursive;
+}
+.maindiv1{
+    width: 95%;
+    margin: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 5px;
+
+}
+.maindiv2{
+    width: 95%;
+    margin: 10px;
+    box-shadow: 0 0 5px red;
+    padding: 5px;
+}
+.maindiv3{
+    width: 95%;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 0 5px green;
+}
+@media (max-width: 480px){
+    .lolo1{
+        padding: 5px;
+        margin: 5px;
+        bottom: 30px;
+    }
+    .lolo1:hover{
+        padding: 5px;
+        margin: 5px;
+        bottom: 30px;
+    }
+    .headimg{
+        width: 100%;
+    }
+    .lolo{
+        font-size: 12px;
+    }
+    .maindiv1{
+        width: 100%;
+        margin: 0%;
+        padding: 3px;
+    }
+    .maindiv2{
+        width: 100%;
+        margin: 0%;
+        padding: 3px;
+    }
+    .maindiv3{
+        width: 100%;
+        margin: 0%;
+        padding: 3px;
+    }
+    .video{
+        width: 100%;
+        height: 250px;
+    }
+    .artic{
+        margin: 10px;
+        display: inline-block;
+    }
+}
+ .p{
+    font-family: 'Caveat', cursive;
+    text-decoration: none;
+    color: black;
+ }
+
+.foot{
+    position: relative; 
+    border-radius: 1rem;
+    left: 0;
+    bottom: 0; 
+    padding: 5px; 
+    background: #4b9136; 
+    color: white;
+    width: 100%; 
+}
+
+.h4foot{
+    color: white;
+    font-family: 'Caveat', cursive;
+}
+.divfoot{
+    width: 50%;
+    display: inline-block;
+    padding: 5px;
+}
